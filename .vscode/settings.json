@@ -1,0 +1,10 @@
+{
+    "dart.flutterSdkPath": "/Users/alex/.puro/envs/beta/flutter",
+    "dart.sdkPath": "/Users/alex/.puro/envs/beta/flutter/bin/cache/dart-sdk",
+    "dart.lineLength": 80,
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+    }
+}
