@@ -137,10 +137,5 @@ List<Segment> composeWalking(
   });
 }
 
-List<double> windowSegment(List<double> input) {
-  final window = Window.cosine(input.length, 0.1);
-  return window.applyWindowReal(input);
-}
-
 Iterable<int> randomIndices(int length, int count) =>
     (List.generate(length, (i) => i)..shuffle()).take(count);

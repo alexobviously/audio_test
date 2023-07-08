@@ -7,3 +7,5 @@ build/
 
 .puro.json
 .DS_Store
+
+temp/
